@@ -13,4 +13,4 @@ it serves two functions:
 
 
 ##Wiring diagram:
-![My image](extras/wiring%20diagram.png)
+![My image](wiring%20diagram.png)
