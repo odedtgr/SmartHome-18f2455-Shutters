@@ -220,7 +220,7 @@ void shutterCommands(char device) {
         case 2://stop
             if (upRelay == 1)
                 deviceState = deviceState + (int) (time / (double) Read_b_eep(0x01) * 100);
-            else
+            else if(downRelay == 1)
                 deviceState = deviceState - (int) (time / (double) Read_b_eep(0x02) * 100);
             upRelay = 0;
             downRelay = 0;
